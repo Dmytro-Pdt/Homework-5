@@ -1,0 +1,149 @@
+body {
+    background-color: azure;
+    font-family: 'Titillium Web', sans-serif;
+    height: 100%;
+}
+div.wrapper {
+    margin: 0 auto;
+    border: 1px solid yellowgreen;
+    width: 1000px;
+}
+div.header  {
+    width: 1000px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+}
+div.header span {
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 30px;
+}
+select.actions {
+    background-color: lightgreen;
+    border: none;
+    width: 120px;
+}
+option {
+    background: azure;  
+}
+div.main {
+    display: flex;
+    width: 1000px;
+}
+div.left-block {
+    width: auto;
+    display: block;
+    height: 520px;
+    position: absolute;
+    margin-left:-1px;
+    padding-left: 15px;
+    border-left: 1px solid lightgreen;
+}
+div.right-block {
+    width: 499px;
+    height: 520px;
+    position: absolute;
+    margin-left: 20px;
+    display: block;
+    margin-left: 491px; 
+    padding-right: 10px;
+    border-right: 1px solid lightgreen;
+}
+div.footer {
+    display: inline-flex;
+    position: absolute;
+    top: 565px;
+    margin-right: -1px;
+    width: 1002px;
+    height: 45px;
+    z-index: 3;
+    background-color: lightsteelblue;
+    align-items: center;
+    justify-content: center;
+}
+label.first-name > input {
+    margin-left: 100px;
+    width: 200px;
+}
+label.last-name > input {
+    margin-left: 103px;
+    width: 200px;
+}
+span.address {
+    position: absolute;
+}
+label.city > input {
+    margin-left: 159px;
+    width: 203px;
+}
+select.chose-city {
+    margin-left: 149px;
+    width: 211px;
+}
+label.zip > input {
+    margin-left: 163px;
+    width: 206px;
+}
+label.h-phone > input {
+    margin-left: 95px;
+    width: 110px;
+}
+label.w-phone > input {
+    margin-left: 99px;
+    width: 206px;
+}
+label.fax > input {
+    margin-left: 99px;
+    width: 110px;
+}
+span.website {
+    position: absolute;
+}
+div.conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    position: relative;
+    left: 186px;
+}
+div.conteiner span {
+    position: absolute;
+}
+label.url > input {
+    margin-left: 80px;
+    margin-bottom: 2px;
+    width: 126px;
+}
+label.link-name > input {
+    margin-left: 80px;
+    width: 126px;
+}
+label.email > input {
+    margin-left: 85px;
+    width: 206px;
+}
+input.when-call, .way-to-contact {
+    margin-left: 280px;
+}
+div.footer > input {
+    align-content: center;
+    justify-content: center;
+    height: 35px;
+    width: 100px;
+    background-color: lightgreen;
+    font-family: 'Titillium Web', sans-serif;
+    border: 1px solid darkgreen;
+    font-size: medium;
+    color: green
+}
+div.footer > input:hover {
+    color: yellow;
+    background-color: teal;
+    transition-duration: 1s;
+    border: 1px solid teal;
+}
+div.footer .submit {
+    margin-right: 6px;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="get" target="_blank">
+            <div class="header">
+                <span>Contact Manager</span>
+                <select name="More Actions" class="actions">
+                    <option value="more" selected="selected">More Actions</option>
+                    <option value="feedback">Send CV</option>
+                    <option value="complaint">Send Feedback</option>
+                    <option value="ask">Contact HR</option>
+                </select>
+            </div>
+            <div class="main">
+                <div class="left-block">
+                    <br>
+                    <label class="first-name">
+                        <span>First Name *</span>
+                        <input type="text" name="first-name" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="last-name">
+                        <span>Last Name *</span>
+                        <input type="text" name="last-name" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="address">
+                        <span class="address">Address</span>
+                        <textarea cols="40" rows="10" name="address" style="margin-left: 190px; width: 203px; height: 80px; position: relative;">
+                        </textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <label class="city">
+                        <span>City</span>
+                        <input type="text" name="city" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <span>State</span>
+                    <select name="state" class="chose-city">
+                        <option value="state-opt" selected="selected">-Select-</option>
+                        <option value="kyiv">Kyiv</option>
+                        <option value="complaint">Chernihiv</option>
+                        <option value="ask">Zhytomyr</option>
+                        <option value="ask">Sumy</option>
+                        <option value="ask">Poltava</option>
+                        <option value="ask">Other</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label class="zip">
+                        <span>Zip</span>
+                        <input type="text" name="zip" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="h-phone">
+                        <span>Home Phone</span>
+                        <input type="text" name="home-phone" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="w-phone">
+                        <span>Work Phone</span>
+                        <input type="text" name="work-phone" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <label class="fax">
+                        <span>Fax Number</span>
+                        <input type="text" name="fax-number" value="" placeholder="">
+                    </label>
+                    <br>
+                    <br>
+                    <span class="website">Website</span>
+                    <div class="conteiner">
+                        <label class="url">
+                            <span>URL</span>
+                            <input type="text" name="URL" value="" placeholder="">
+                        </label>
+                        <label class="link-name">
+                            <span>Link Name</span>
+                            <input type="text" name="link-name" value="" placeholder="">
+                        </label>
+                    </div>
+                    <br>
+                    <br>
+                    <label class="email">
+                        <span>Email Address</span>
+                        <input type="text" name=email value="" placeholder="">
+                    </label>
+                </div>
+                <div class="right-block">
+                    <br>
+                    <span>When is the best time to contact you?</span>
+                    <p><input class="when-call" type="radio" name="a1" value="morning">Morning</p>
+                    <p><input class="when-call" type="radio" name="a1" value="afternoon">Afternoon</p>
+                    <p><input class="when-call" type="radio" name="a1" value="evening">Evening</p>
+                    <br>
+                    <span>What is the best way to contact you?</span>
+                    <p><input class="way-to-contact" type="radio" name="a1" value="morning">Phone</p>
+                    <p><input class="when-call" type="radio" name="a1" value="afternoon">Email</p>
+                    <p><input class="when-call" type="radio" name="a1" value="evening">Fax</p>
+                    <br>
+                    <br>
+                    <label class="address">
+                        <span class="address">Message</span>
+                        <textarea cols="40" rows="10" name="address" style="margin-left: 275px; width: 210px; height: 120px; position: relative;">
+                        </textarea>
+                    </label>
+                </div>
+            </div>
+            <div class="footer">
+                <input class="submit" type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
